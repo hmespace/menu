@@ -1,9 +1,3 @@
-Chắc chắn rồi. Anh đã chỉ ra một hướng đi chiến lược rõ ràng. Việc chính thức hóa triết lý **"Frontend-First"** sẽ mang lại sự tập trung và hiệu quả cho toàn bộ quá trình phát triển.
-
-Đây là phiên bản `README.md` được thiết kế lại để phản ánh chính xác triết lý này. Nó không chỉ là một tài liệu, mà là một tuyên ngôn về cách chúng ta làm việc: **bắt đầu từ trải nghiệm người dùng, và để trải nghiệm đó định hình nên hệ thống kỹ thuật.**
-
----
-
 # Dự án IQR - Trung tâm Tài liệu Chiến lược & Kỹ thuật
 
 Chào mừng bạn đến với Nguồn Sự Thật Duy Nhất (Single Source of Truth) của dự án IQR.
