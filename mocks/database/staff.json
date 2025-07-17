@@ -1,0 +1,134 @@
+[
+  {
+    "id": "staff-01",
+    "employeeId": "DCB-007",
+    "fullName": "Trần Thị Bích",
+    "displayName": "Bích",
+    "avatarUrl": "https://example.com/staff/bich-tran.jpg",
+    "pinCode": "1234",
+    "passwordHash": null,
+
+    "roleId": "role-03",
+    "status": "active",
+    "employmentType": "full_time",
+    "hireDate": "2022-05-15",
+
+    "locationId": "loc-01",
+    "assignedTableIds": ["table-01", "table-02", "table-03", "table-04"],
+    "currentShiftStatus": "on_duty",
+    "lastClockInAt": "2023-10-29T17:00:00Z",
+
+    "performanceSnapshot": {
+      "period": "month_to_date",
+      "totalSalesHandled": 85600000,
+      "ordersHandled": 180,
+      "averageTipAmount": 25000,
+      "customerRatingAverage": 4.9,
+      "upsellSuccessRate": 0.15,
+      "averageTableTurnTimeMinutes": 45
+    },
+
+    "internalPhone": "101",
+    "internalEmail": "bich.tran@daringcoder.vn",
+    "emergencyContact": { "name": "Nguyễn Văn Hùng", "phone": "0901112223" }
+  },
+
+  {
+    "id": "staff-02",
+    "employeeId": "DCB-002",
+    "fullName": "Lê Minh Cường",
+    "displayName": "Chef Cường",
+    "avatarUrl": "https://example.com/staff/cuong-le.jpg",
+    "pinCode": "5678",
+    "passwordHash": "$2b$12$...",
+
+    "roleId": "role-04",
+    "status": "active",
+    "employmentType": "full_time",
+    "hireDate": "2021-11-01",
+
+    "locationId": "loc-01",
+    "assignedTableIds": [],
+    "currentShiftStatus": "on_duty",
+    "lastClockInAt": "2023-10-29T16:30:00Z",
+
+    "performanceSnapshot": {
+      "period": "month_to_date",
+      "dishesPrepared": 2500,
+      "averagePrepTimeSeconds": 480,
+      "foodWastePercentage": 2.5,
+      "orderAccuracyRate": 0.995,
+      "peakHourCapacity": 120
+    },
+
+    "internalPhone": "201",
+    "internalEmail": "cuong.le@daringcoder.vn",
+    "emergencyContact": { "name": "Trần Thị Mai", "phone": "0904445556" }
+  },
+
+  {
+    "id": "staff-03",
+    "employeeId": "DCB-001",
+    "fullName": "Nguyễn Thị An",
+    "displayName": "Ms. An",
+    "avatarUrl": "https://example.com/staff/an-nguyen.jpg",
+    "pinCode": "9999",
+    "passwordHash": "$2b$12$...",
+
+    "roleId": "role-02",
+    "status": "active",
+    "employmentType": "full_time",
+    "hireDate": "2021-01-10",
+
+    "locationId": "loc-01",
+    "assignedTableIds": [],
+    "currentShiftStatus": "on_duty",
+    "lastClockInAt": "2023-10-29T09:00:00Z",
+
+    "performanceSnapshot": {
+      "period": "month_to_date",
+      "locationRevenue": 2150000000,
+      "profitMargin": 0.22,
+      "customerSatisfactionScore": 9.5,
+      "staffTurnoverRate": 0.05,
+      "operationalEfficiencyScore": 8.8
+    },
+
+    "internalPhone": "999",
+    "internalEmail": "an.nguyen.manager@daringcoder.vn",
+    "emergencyContact": { "name": "Lê Văn Bình", "phone": "0907778889" }
+  },
+
+  {
+    "id": "staff-04",
+    "employeeId": "DCB-D01",
+    "fullName": "Phạm Văn Dũng",
+    "displayName": "Dũng Shipper",
+    "avatarUrl": "https://example.com/staff/dung-pham.jpg",
+    "pinCode": "7788",
+    "passwordHash": null,
+
+    "roleId": "role-05",
+    "status": "active",
+    "employmentType": "contractor",
+    "hireDate": "2023-03-01",
+
+    "locationId": "loc-03",
+    "assignedTableIds": [],
+    "currentShiftStatus": "on_duty",
+    "lastClockInAt": "2023-10-29T10:30:00Z",
+
+    "performanceSnapshot": {
+      "period": "month_to_date",
+      "deliveriesCompleted": 350,
+      "averageDeliveryTimeMinutes": 22,
+      "onTimeDeliveryRate": 0.98,
+      "customerRatingAverage": 4.95,
+      "distanceTraveledKm": 1500
+    },
+
+    "internalPhone": "301",
+    "internalEmail": "dung.pham.driver@daringcoder.vn",
+    "emergencyContact": { "name": "Vũ Thị Lan", "phone": "0909998887" }
+  }
+]

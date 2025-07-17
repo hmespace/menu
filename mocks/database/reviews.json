@@ -1,0 +1,130 @@
+[
+
+  {
+
+    "id": "review-01",
+    "reviewableType": "ORDER",
+    "reviewableId": "order-01",
+
+
+    "userId": "user-01",
+    "locationId": "loc-01",
+    "orderId": "order-01",
+
+
+    "rating": 5,
+    "title": "Trải nghiệm tuyệt vời nhất từ trước đến nay!",
+    "comment": "Mình thực sự ấn tượng với chất lượng đồ ăn và sự chuyên nghiệp của các bạn. Bò bít tết mềm tan trong miệng, sốt tiêu xanh rất đặc biệt. Bạn Bích phục vụ bàn mình rất nhiệt tình và chu đáo. Chắc chắn sẽ quay lại!",
+    "isPublic": true,
+    "isAnonymous": false,
+
+
+    "structuredFeedbackTags": {
+      "positive": ["great_taste", "fast_service", "friendly_staff", "nice_ambiance"],
+      "negative": []
+    },
+    "sentimentAnalysis": { "label": "very_positive", "score": 0.98 },
+
+
+    "attachedImageUrls": [
+      "https://example.com/ugc/beefsteak-review-1.jpg",
+      "https://example.com/ugc/ambiance-review-1.jpg"
+    ],
+
+
+    "status": "approved",
+    "isFeatured": true,
+    "managementResponse": {
+      "staffId": "staff-03",
+      "comment": "Cảm ơn anh An rất nhiều vì những lời khen có cánh! Đội ngũ Daring Coder Bistro rất vui khi đã mang lại cho anh một trải nghiệm tuyệt vời. Hẹn gặp lại anh sớm nhé!",
+      "respondedAt": "2023-10-28T10:00:00Z"
+    },
+
+
+    "source": "post_payment_prompt",
+    "createdAt": "2023-10-27T13:00:00Z"
+  },
+
+
+  {
+    "id": "review-02",
+    "reviewableType": "DISH",
+    "reviewableId": "dish-02",
+    "userId": "user-03",
+    "locationId": "loc-01",
+    "orderId": "order-04",
+    "rating": 3,
+    "title": "Khoai tây hơi ỉu",
+    "comment": "Hôm nay mình ăn khoai tây chiên không được giòn như mọi khi, cảm giác hơi ỉu và nguội. Mong quán xem lại khâu chế biến. Các món khác vẫn rất ngon.",
+    "isPublic": false,
+    "isAnonymous": false,
+    "structuredFeedbackTags": {
+      "positive": ["great_taste_other_items"],
+      "negative": ["cold_food", "not_crispy"]
+    },
+    "sentimentAnalysis": { "label": "mixed", "score": 0.25 },
+    "attachedImageUrls": [],
+    "status": "approved",
+    "isFeatured": false,
+    "managementResponse": {
+      "staffId": "staff-03",
+      "comment": "Cảm ơn anh Cường đã góp ý. Bọn em rất xin lỗi về trải nghiệm chưa tốt với món Khoai tây chiên. Em đã chuyển thông tin này cho Bếp trưởng để kiểm tra lại quy trình. Rất mong được phục vụ anh tốt hơn trong lần tới!",
+      "respondedAt": "2023-10-29T11:00:00Z"
+    },
+    "source": "email_survey",
+    "createdAt": "2023-10-29T09:30:00Z"
+  },
+
+
+  {
+    "id": "review-03",
+    "reviewableType": "STAFF",
+    "reviewableId": "staff-01",
+    "userId": "user-01",
+    "locationId": "loc-01",
+    "orderId": "order-01",
+    "rating": 5,
+    "title": null,
+    "comment": null,
+    "isPublic": false,
+    "isAnonymous": true,
+    "structuredFeedbackTags": {
+      "positive": ["friendly_staff"],
+      "negative": []
+    },
+    "sentimentAnalysis": { "label": "positive", "score": 0.9 },
+    "attachedImageUrls": [],
+    "status": "approved",
+    "isFeatured": false,
+    "managementResponse": null,
+    "source": "tipping_flow",
+    "createdAt": "2023-10-27T12:44:30Z"
+  },
+
+
+  {
+    "id": "review-04",
+    "reviewableType": "ORDER",
+    "reviewableId": "order-05",
+    "userId": "user-04",
+    "locationId": "loc-02",
+    "orderId": "order-05",
+    "rating": 1,
+    "title": "Quá tệ",
+    "comment": "Nhân viên ABC có thái độ không tốt và dùng từ ngữ không phù hợp.",
+    "isPublic": true,
+    "isAnonymous": false,
+    "structuredFeedbackTags": {
+      "positive": [],
+      "negative": ["unfriendly_staff"]
+    },
+    "sentimentAnalysis": { "label": "very_negative", "score": -0.95 },
+    "attachedImageUrls": [],
+    "status": "rejected",
+    "rejectionReason": "inappropriate_language",
+    "isFeatured": false,
+    "managementResponse": null,
+    "source": "in_app_history",
+    "createdAt": "2023-10-29T15:00:00Z"
+  }
+]

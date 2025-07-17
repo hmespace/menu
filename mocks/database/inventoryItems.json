@@ -1,0 +1,125 @@
+[
+
+  {
+
+    "id": "inv-item-01",
+    "sku": "BEEF-SIRLOIN-AUS-01",
+    "name": "Thăn ngoại bò Úc tươi",
+    "internalName": "Bò Úc",
+    "description": "Thăn ngoại bò Úc, được làm lạnh, chưa đông đá. Dùng cho món Bò Bít Tết.",
+
+
+    "category": "Thịt & Hải sản",
+    "isPerishable": true,
+    "isTaxable": true,
+
+
+    "unitOfMeasure": "kg",
+    "stockLevel": 10.5,
+    "onOrderQuantity": 5.0,
+    "committedQuantity": 2.5,
+    "availableQuantity": 8.0,
+    "reorderPoint": 5.0,
+    "reorderQuantity": 10.0,
+    "wasteQuantity_mtd": 0.5,
+
+
+    "averageCost": 850000,
+    "lastPurchasePrice": 865000,
+    "currency": "VND",
+    "supplierId": "supplier-abc-meats",
+
+
+    "storageType": "refrigerated",
+    "shelfLifeDays": 7,
+    "weightPerUnit": null,
+
+
+    "lotNumber": "LOT20231029-AUS",
+    "countryOfOrigin": "Australia",
+    "sustainabilityCertification": "MLA Certified",
+    "lastReceivedDate": "2023-10-28T08:00:00Z",
+    "expirationDate": "2023-11-04T08:00:00Z",
+
+
+    "locationId": "loc-01",
+    "status": "in_stock",
+    "lastCountedAt": "2023-10-27T22:00:00Z",
+    "createdAt": "2022-01-15T10:00:00Z",
+    "updatedAt": "2023-10-29T09:00:00Z"
+  },
+
+
+  {
+    "id": "inv-item-02",
+    "sku": "FLOUR-AP-01",
+    "name": "Bột mì đa dụng",
+    "internalName": "Bột mì",
+    "description": "Bột mì số 8, dùng để làm bánh và các món chiên.",
+    "category": "Đồ khô",
+    "isPerishable": false,
+    "isTaxable": true,
+    "unitOfMeasure": "kg",
+    "stockLevel": 50.0,
+    "onOrderQuantity": 0,
+    "committedQuantity": 0,
+    "availableQuantity": 50.0,
+    "reorderPoint": 20.0,
+    "reorderQuantity": 50.0,
+    "wasteQuantity_mtd": 0,
+    "averageCost": 25000,
+    "lastPurchasePrice": 25000,
+    "currency": "VND",
+    "supplierId": "supplier-metro",
+    "storageType": "dry_storage",
+    "shelfLifeDays": 365,
+    "weightPerUnit": null,
+    "lotNumber": "LOT202309-VN",
+    "countryOfOrigin": "Việt Nam",
+    "sustainabilityCertification": null,
+    "lastReceivedDate": "2023-09-15T10:00:00Z",
+    "expirationDate": "2024-09-14T10:00:00Z",
+    "locationId": "loc-01",
+    "status": "in_stock",
+    "lastCountedAt": "2023-10-27T22:00:00Z",
+    "createdAt": "2022-01-15T10:00:00Z",
+    "updatedAt": "2023-10-27T22:00:00Z"
+  },
+
+
+  {
+    "id": "inv-item-03",
+    "sku": "BOX-TAKEAWAY-M",
+    "name": "Hộp giấy đựng đồ mang về (Size M)",
+    "internalName": "Hộp M",
+    "description": "Hộp giấy bã mía thân thiện môi trường, size 20x15x7cm.",
+    "category": "Vật tư",
+    "isPerishable": false,
+    "isTaxable": false,
+    "unitOfMeasure": "cái",
+    "stockLevel": 850,
+    "onOrderQuantity": 1000,
+    "committedQuantity": 50,
+    "availableQuantity": 800,
+    "reorderPoint": 500,
+    "reorderQuantity": 2000,
+    "wasteQuantity_mtd": 15,
+    "averageCost": 2500,
+    "lastPurchasePrice": 2600,
+    "currency": "VND",
+    "supplierId": "supplier-packaging-vn",
+    "storageType": "dry_storage",
+    "shelfLifeDays": null,
+    "weightPerUnit": 0.05,
+    "lotNumber": null,
+    "countryOfOrigin": "Việt Nam",
+    "sustainabilityCertification": "FSC Certified",
+    "lastReceivedDate": "2023-10-10T14:00:00Z",
+    "expirationDate": null,
+    "locationId": "loc-03",
+    "status": "low_stock",
+    "lastCountedAt": "2023-10-27T22:00:00Z",
+    "createdAt": "2023-01-15T10:00:00Z",
+    "updatedAt": "2023-10-29T11:00:00Z"
+  }
+]

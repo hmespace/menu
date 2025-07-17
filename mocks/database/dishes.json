@@ -1,0 +1,239 @@
+[
+  {
+    "id": "dish-01",
+    "sku": "BEEFSTEAK-200G-PPR",
+    "slug": "bo-bit-tet-sot-tieu-xanh-200g",
+    "version": 4,
+
+    "localizedContent": {
+      "vi_VN": {
+        "name": "Bò Bít Tết Sốt Tiêu Xanh",
+        "shortDescription": "Thăn ngoại bò Úc 200g mềm mọng.",
+        "longDescription": "Thăn ngoại bò Úc hảo hạng nặng 200g, được áp chảo trên lửa lớn để giữ trọn độ mềm mọng bên trong và lớp vỏ ngoài xém cạnh hoàn hảo. Phục vụ cùng khoai tây nghiền mịn và sốt tiêu xanh Phú Quốc đậm đà, cay nồng.",
+        "originStory": "Nguồn cảm hứng từ những chuyến đi đến Phú Quốc, chúng tôi đã mang hương vị tiêu trứ danh về kết hợp cùng loại bò Úc ngon nhất..."
+      },
+      "en_US": {
+        "name": "Beef Steak with Green Peppercorn Sauce",
+        "shortDescription": "Juicy 200g Australian sirloin.",
+        "longDescription": "A premium 200g Australian sirloin steak, seared over high heat to lock in its juicy tenderness with a perfect crust. Served with creamy mashed potatoes and a rich, pungent Phu Quoc green peppercorn sauce.",
+        "originStory": "Inspired by our trips to Phu Quoc, we've brought the island's famous pepper flavor to pair with the finest Australian beef..."
+      }
+    },
+    "primaryImageUrl": "https://example.com/beefsteak-primary.jpg",
+    "galleryImageUrls": [
+      "https://example.com/beefsteak-gallery-1.jpg",
+      "https://example.com/beefsteak-gallery-2.jpg"
+    ],
+    "videoUrl": "https://example.com/beefsteak-making-of.mp4",
+    "arModelUrl": "https://example.com/beefsteak.glb",
+
+    "price": 250000,
+    "costOfGoods": 120000,
+    "discountPrice": null,
+    "isDiscountable": true,
+    "taxRateId": "tax-rate-vat-10",
+    "displayOrder": 1,
+
+    "isVegetarian": false,
+    "isVegan": false,
+    "isGlutenFree": false,
+    "isDairyFree": false,
+    "allergenIds": ["allergen-01", "allergen-04"],
+    "spicinessLevel": 2,
+    "calories": 650,
+    "protein_g": 50,
+    "fat_g": 45,
+    "carbs_g": 10,
+    "servingSize_g": 350,
+    "semanticKeywords": [
+      "sang trọng",
+      "bữa tối",
+      "thịnh soạn",
+      "đãi khách",
+      "protein"
+    ],
+
+    "averageRating": 4.9,
+    "reviewCount": 312,
+    "isFeatured": true,
+    "favoriteCount": 1024,
+
+    "allowsNotes": true,
+    "optionGroupIds": ["opt-group-01", "opt-group-04"],
+    "isGiftable": false,
+
+    "status": "available",
+    "prepTimeMinutes_avg": 15,
+    "kitchenDisplayStationId": "kds-grill",
+
+    "inventoryTrackingMethod": "by_ingredient",
+    "lowStockThreshold": 5,
+
+    "upsellDishIds": ["dish-wine-01", "dish-salad-01"],
+    "loyaltyPointsModifier": { "type": "multiplier", "value": 1.2 },
+    "abTestingVariants": [
+      { "variantId": "price_test_A", "overrides": { "price": 245000 } },
+      { "variantId": "price_test_B", "overrides": { "price": 255000 } }
+    ],
+
+    "brandId": "brand-01",
+    "categoryId": "cat-01",
+    "tagIds": ["tag-01", "tag-03"],
+    "createdAt": "2023-01-15T09:00:00Z",
+    "updatedAt": "2023-10-26T14:30:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "dish-02",
+    "sku": "FRIES-GARLIC-SIDE",
+    "slug": "khoai-tay-chien-toi",
+    "version": 1,
+
+    "localizedContent": {
+      "vi_VN": {
+        "name": "Khoai Tây Chiên Tỏi",
+        "shortDescription": "Giòn rụm bên ngoài, mềm mại bên trong.",
+        "longDescription": "Khoai tây cắt sợi, chiên ngập dầu đến khi vàng giòn, xóc đều với bơ tỏi và lá mùi tây thái nhỏ. Một món ăn kèm không thể thiếu.",
+        "originStory": null
+      },
+      "en_US": {
+        "name": "Garlic Fries",
+        "shortDescription": "Crispy outside, fluffy inside.",
+        "longDescription": "Shoestring fries, deep-fried to a golden crisp, tossed with garlic butter and chopped parsley. An essential side dish.",
+        "originStory": null
+      }
+    },
+    "primaryImageUrl": "https://example.com/fries-primary.jpg",
+    "galleryImageUrls": [],
+    "videoUrl": null,
+    "arModelUrl": null,
+
+    "price": 55000,
+    "costOfGoods": 20000,
+    "discountPrice": 49000,
+    "isDiscountable": true,
+    "taxRateId": "tax-rate-vat-10",
+    "displayOrder": 1,
+
+    "isVegetarian": true,
+    "isVegan": false,
+    "isGlutenFree": true,
+    "isDairyFree": false,
+    "allergenIds": ["allergen-04"],
+    "spicinessLevel": 0,
+    "calories": 450,
+    "protein_g": 5,
+    "fat_g": 25,
+    "carbs_g": 50,
+    "servingSize_g": 200,
+    "semanticKeywords": ["ăn vặt", "trẻ em", "giòn", "chia sẻ"],
+
+    "averageRating": 4.7,
+    "reviewCount": 540,
+    "isFeatured": false,
+    "favoriteCount": 850,
+
+    "allowsNotes": false,
+    "optionGroupIds": [],
+    "isGiftable": false,
+
+    "status": "available",
+    "prepTimeMinutes_avg": 7,
+    "kitchenDisplayStationId": "kds-fryer",
+
+    "inventoryTrackingMethod": "by_ingredient",
+    "lowStockThreshold": 20,
+
+    "upsellDishIds": [],
+    "loyaltyPointsModifier": null,
+    "abTestingVariants": [],
+
+    "brandId": "brand-01",
+    "categoryId": "cat-02",
+    "tagIds": [],
+    "createdAt": "2023-02-01T11:00:00Z",
+    "updatedAt": "2023-09-10T18:00:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "dish-03",
+    "sku": "TEA-LYCHEE-ROSE-SUMMER",
+    "slug": "tra-vai-hoa-hong-mua-he",
+    "version": 2,
+
+    "localizedContent": {
+      "vi_VN": {
+        "name": "Trà Vải Hoa Hồng Mùa Hè",
+        "shortDescription": "Thức uống giải nhiệt thanh mát và lãng mạn.",
+        "longDescription": "Nền trà ô long cao cấp, kết hợp với vị ngọt thanh của vải thiều tươi và hương thơm tinh tế từ những cánh hoa hồng hữu cơ. Một thức uống hoàn hảo cho ngày hè.",
+        "originStory": "Mỗi mùa hè, chúng tôi lại sáng tạo một thức uống đặc biệt. Năm nay, đó là sự kết hợp giữa quả vải và hoa hồng trong vườn nhà."
+      },
+      "en_US": {
+        "name": "Summer Lychee Rose Tea",
+        "shortDescription": "A refreshing and romantic cooler.",
+        "longDescription": "Premium oolong tea base, blended with the sweet notes of fresh lychee and the delicate aroma of organic rose petals. The perfect summer drink.",
+        "originStory": "Every summer, we create a special drink. This year, it's a combination of lychee and roses from our own garden."
+      }
+    },
+    "primaryImageUrl": "https://example.com/lychee-tea.jpg",
+    "galleryImageUrls": ["https://example.com/lychee-tea-2.jpg"],
+    "videoUrl": null,
+    "arModelUrl": null,
+
+    "price": 65000,
+    "costOfGoods": 25000,
+    "discountPrice": null,
+    "isDiscountable": false,
+    "taxRateId": "tax-rate-vat-10",
+    "displayOrder": 1,
+
+    "isVegetarian": true,
+    "isVegan": true,
+    "isGlutenFree": true,
+    "isDairyFree": true,
+    "allergenIds": [],
+    "spicinessLevel": 0,
+    "calories": 120,
+    "protein_g": 1,
+    "fat_g": 0,
+    "carbs_g": 30,
+    "servingSize_g": 450,
+    "semanticKeywords": [
+      "giải nhiệt",
+      "thư giãn",
+      "lãng mạn",
+      "trái cây",
+      "thanh mát",
+      "đẹp da"
+    ],
+
+    "averageRating": 4.8,
+    "reviewCount": 180,
+    "isFeatured": true,
+    "favoriteCount": 630,
+
+    "allowsNotes": true,
+    "optionGroupIds": ["opt-group-02", "opt-group-03"],
+    "isGiftable": true,
+
+    "status": "seasonal",
+    "prepTimeMinutes_avg": 5,
+    "kitchenDisplayStationId": "kds-bar",
+
+    "inventoryTrackingMethod": "by_ingredient",
+    "lowStockThreshold": 10,
+
+    "upsellDishIds": ["dish-dessert-02"],
+    "loyaltyPointsModifier": { "type": "bonus", "value": 50 },
+    "abTestingVariants": [],
+
+    "brandId": "brand-01",
+    "categoryId": "cat-03",
+    "tagIds": ["tag-02"],
+    "createdAt": "2023-06-01T10:00:00Z",
+    "updatedAt": "2023-07-15T11:30:00Z",
+    "isArchived": false
+  }
+]

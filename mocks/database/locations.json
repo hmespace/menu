@@ -1,0 +1,187 @@
+[
+  {
+    "id": "loc-01",
+    "brandId": "brand-01",
+    "internalCode": "HCM-D1-NH",
+    "name": "Daring Coder Bistro - Nguyễn Huệ",
+    "slug": "daring-coder-bistro-nguyen-hue",
+
+    "address": {
+      "street": "123 Nguyễn Huệ",
+      "ward": "Phường Bến Nghé",
+      "district": "Quận 1",
+      "city": "TP. Hồ Chí Minh",
+      "country": "Việt Nam",
+      "postalCode": "700000"
+    },
+    "coordinates": { "latitude": 10.7763, "longitude": 106.7022 },
+    "phone": "02838123456",
+    "publicEmail": "hello.q1@daringcoder.vn",
+    "managerEmail": "manager.q1@daringcoder.vn",
+
+    "status": "open",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "openingHours": [
+      { "dayOfWeek": 1, "open": "08:00", "close": "22:00" },
+      { "dayOfWeek": 2, "open": "08:00", "close": "22:00" },
+      { "dayOfWeek": 3, "open": "08:00", "close": "22:00" },
+      { "dayOfWeek": 4, "open": "08:00", "close": "22:00" },
+      { "dayOfWeek": 5, "open": "08:00", "close": "23:00" },
+      { "dayOfWeek": 6, "open": "08:00", "close": "23:00" },
+      { "dayOfWeek": 7, "open": null, "close": null }
+    ],
+    "specialHours": [
+      {
+        "date": "2024-01-01",
+        "open": "10:00",
+        "close": "20:00",
+        "note": "Tết Dương Lịch"
+      }
+    ],
+
+    "floorPlanUrl": "https://example.com/floorplans/loc-01.svg",
+    "totalCapacity": 80,
+    "tableCount": 25,
+    "facilities": [
+      "wifi",
+      "parking",
+      "wheelchair_accessible",
+      "outdoor_seating"
+    ],
+    "wifiNetwork": "DaringCoder_Guest",
+    "wifiPassword": "anngoncungcoder",
+
+    "menuId": "menu-standard-v2",
+    "priceTierId": "tier-standard",
+
+    "supportsDineIn": true,
+    "supportsPickup": true,
+    "supportsDelivery": true,
+    "deliveryRadiusKm": 5,
+    "deliveryProviderIds": ["grabfood-01", "shopeefood-01"],
+    "estimatedPrepTimeOffsetMinutes": 0,
+    "pickupInstructions": "Vui lòng đến quầy takeaway bên phải cửa ra vào.",
+
+    "activeLocalPromotionIds": ["promo-happy-hour-q1"],
+    "geofenceSettings": {
+      "radiusMeters": 500,
+      "notificationMessage": "Đang ở gần Daring Coder Bistro? Ghé vào thưởng thức Happy Hour nhé!"
+    },
+
+    "kpiSnapshot": {
+      "dailyRevenue": 75000000,
+      "averageRating": 4.8,
+      "tableTurnoverRate": 2.5,
+      "staffCount": 15
+    },
+
+    "createdAt": "2022-01-01T09:00:00Z",
+    "updatedAt": "2023-10-29T10:00:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "loc-02",
+    "brandId": "brand-01",
+    "internalCode": "SGN-T1-KIOSK",
+    "name": "Daring Coder Express - Sân bay TSN",
+    "slug": "daring-coder-express-tsn",
+    "address": {
+      "street": "Sân bay Tân Sơn Nhất, Ga Quốc Nội",
+      "ward": "Phường 2",
+      "district": "Quận Tân Bình",
+      "city": "TP. Hồ Chí Minh",
+      "country": "Việt Nam",
+      "postalCode": "700000"
+    },
+    "coordinates": { "latitude": 10.8187, "longitude": 106.6581 },
+    "phone": "02838123457",
+    "publicEmail": "hello.tsn@daringcoder.vn",
+    "managerEmail": "manager.tsn@daringcoder.vn",
+    "status": "open",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "openingHours": [{ "dayOfWeek": 0, "open": "05:00", "close": "23:00" }],
+    "specialHours": [],
+    "floorPlanUrl": null,
+    "totalCapacity": 15,
+    "tableCount": 0,
+    "facilities": ["wifi"],
+    "wifiNetwork": "SGN_Airport_Free_Wifi",
+    "wifiPassword": null,
+    "menuId": "menu-airport-limited",
+    "priceTierId": "tier-airport",
+    "supportsDineIn": true,
+    "supportsPickup": true,
+    "supportsDelivery": false,
+    "deliveryRadiusKm": 0,
+    "deliveryProviderIds": [],
+    "estimatedPrepTimeOffsetMinutes": -5,
+    "pickupInstructions": "Lấy hàng trực tiếp tại quầy.",
+    "activeLocalPromotionIds": [],
+    "geofenceSettings": null,
+    "kpiSnapshot": {
+      "dailyRevenue": 45000000,
+      "averageRating": 4.5,
+      "tableTurnoverRate": 8.0,
+      "staffCount": 6
+    },
+    "createdAt": "2022-06-01T09:00:00Z",
+    "updatedAt": "2023-10-29T11:00:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "loc-03",
+    "brandId": "brand-01",
+    "internalCode": "HCM-D7-GK",
+    "name": "Daring Coder - Bếp Trung tâm Quận 7",
+    "slug": "daring-coder-kitchen-q7",
+    "address": {
+      "street": "Khu Chế xuất Tân Thuận",
+      "ward": "Phường Tân Thuận Đông",
+      "district": "Quận 7",
+      "city": "TP. Hồ Chí Minh",
+      "country": "Việt Nam",
+      "postalCode": "700000"
+    },
+    "coordinates": { "latitude": 10.742, "longitude": 106.729 },
+    "phone": "02838123458",
+    "publicEmail": null,
+    "managerEmail": "manager.q7@daringcoder.vn",
+    "status": "open",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "openingHours": [{ "dayOfWeek": 0, "open": "10:00", "close": "21:00" }],
+    "specialHours": [],
+    "floorPlanUrl": null,
+    "totalCapacity": 0,
+    "tableCount": 0,
+    "facilities": [],
+    "wifiNetwork": null,
+    "wifiPassword": null,
+    "menuId": "menu-delivery-optimized",
+    "priceTierId": "tier-standard",
+    "supportsDineIn": false,
+    "supportsPickup": false,
+    "supportsDelivery": true,
+    "deliveryRadiusKm": 8,
+    "deliveryProviderIds": [
+      "grabfood-01",
+      "shopeefood-01",
+      "baemin-01",
+      "inhouse-fleet"
+    ],
+    "estimatedPrepTimeOffsetMinutes": 0,
+    "pickupInstructions": null,
+    "activeLocalPromotionIds": ["promo-freeship-q7"],
+    "geofenceSettings": null,
+    "kpiSnapshot": {
+      "dailyRevenue": 30000000,
+      "averageRating": 4.6,
+      "tableTurnoverRate": 0,
+      "staffCount": 10
+    },
+    "createdAt": "2023-01-15T09:00:00Z",
+    "updatedAt": "2023-10-29T12:00:00Z",
+    "isArchived": false
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "user-01",
+    "authProvider": "google",
+    "externalAuthId": "109876543210987654321",
+    "email": "an.nguyen.vip@example.com",
+    "isEmailVerified": true,
+    "phone": "0909123456",
+    "isPhoneVerified": true,
+    "passwordHash": null,
+    "status": "active",
+
+    "fullName": "Nguyễn Văn An",
+    "displayName": "An Nguyễn",
+    "avatarUrl": "https://example.com/avatars/an-nguyen.jpg",
+    "gender": "male",
+    "birthday": "1990-08-15",
+    "preferredLanguage": "vi",
+
+    "membershipTierId": "tier-03",
+    "pointsBalance": 25800,
+    "lifetimeValue": 15750000,
+    "totalOrders": 35,
+    "averageOrderValue": 450000,
+    "lastOrderAt": "2023-10-27T12:45:00Z",
+    "favoriteDishIds": ["dish-01", "dish-wine-01"],
+    "favoriteLocationId": "loc-01",
+    "engagementScore": 9.2,
+    "gamificationProfile": {
+      "level": 12,
+      "xp": 12500,
+      "achievedBadgeIds": ["badge-01", "badge-02", "badge-05"]
+    },
+
+    "rfmSegment": "champions",
+    "behavioralTags": [
+      "weekend_diner",
+      "loves_beef",
+      "wine_lover",
+      "high_spender"
+    ],
+    "acquisitionSource": "referral",
+    "acquisitionChannel": "word_of_mouth",
+    "referredByUserId": "user-04",
+    "affiliateCode": "ANVIP10",
+
+    "communicationPreferences": {
+      "allowEmailMarketing": true,
+      "allowPushNotifications": true,
+      "allowSms": false
+    },
+    "defaultPaymentMethodId": "pm-visa-1234",
+    "savedAddresses": [
+      { "id": "addr-01", "label": "Nhà", "address": "123 Lê Lợi, Quận 1" },
+      {
+        "id": "addr-02",
+        "label": "Công ty",
+        "address": "Tòa nhà Bitexco, Quận 1"
+      }
+    ],
+    "dietaryPreferenceIds": [],
+
+    "createdAt": "2022-01-10T10:00:00Z",
+    "updatedAt": "2023-10-27T13:00:00Z",
+    "lastSeenAt": "2023-10-28T09:00:00Z"
+  },
+
+  {
+    "id": "user-02",
+    "authProvider": "email",
+    "externalAuthId": null,
+    "email": "bich.tran.new@example.com",
+    "isEmailVerified": false,
+    "phone": "0988111222",
+    "isPhoneVerified": false,
+    "passwordHash": "$2b$12$...",
+    "status": "active",
+
+    "fullName": "Trần Thị Bích",
+    "displayName": "Bích Trần",
+    "avatarUrl": null,
+    "gender": "female",
+    "birthday": null,
+    "preferredLanguage": "vi",
+
+    "membershipTierId": "tier-01",
+    "pointsBalance": 0,
+    "lifetimeValue": 0,
+    "totalOrders": 0,
+    "averageOrderValue": 0,
+    "lastOrderAt": null,
+    "favoriteDishIds": [],
+    "favoriteLocationId": null,
+    "engagementScore": 1.5,
+    "gamificationProfile": { "level": 1, "xp": 0, "achievedBadgeIds": [] },
+
+    "rfmSegment": "new_customers",
+    "behavioralTags": [],
+    "acquisitionSource": "qr_scan",
+    "acquisitionChannel": "in_store",
+    "referredByUserId": null,
+    "affiliateCode": null,
+
+    "communicationPreferences": {
+      "allowEmailMarketing": true,
+      "allowPushNotifications": false,
+      "allowSms": false
+    },
+    "defaultPaymentMethodId": null,
+    "savedAddresses": [],
+    "dietaryPreferenceIds": [],
+
+    "createdAt": "2023-10-28T19:00:00Z",
+    "updatedAt": "2023-10-28T19:00:00Z",
+    "lastSeenAt": "2023-10-28T19:05:00Z"
+  },
+
+  {
+    "id": "user-03",
+    "authProvider": "facebook",
+    "externalAuthId": "fb-10000123456789",
+    "email": "cuong.le.inactive@example.com",
+    "isEmailVerified": true,
+    "phone": "0933444555",
+    "isPhoneVerified": true,
+    "passwordHash": null,
+    "status": "active",
+
+    "fullName": "Lê Minh Cường",
+    "displayName": "Cường Lê",
+    "avatarUrl": "https://example.com/avatars/cuong-le.jpg",
+    "gender": "male",
+    "birthday": "1998-02-20",
+    "preferredLanguage": "en",
+
+    "membershipTierId": "tier-02",
+    "pointsBalance": 8500,
+    "lifetimeValue": 6200000,
+    "totalOrders": 12,
+    "averageOrderValue": 516667,
+    "lastOrderAt": "2023-07-15T20:10:00Z",
+    "favoriteDishIds": ["dish-salad-01", "dish-vegan-curry"],
+    "favoriteLocationId": "loc-01",
+    "engagementScore": 3.1,
+    "gamificationProfile": {
+      "level": 7,
+      "xp": 7200,
+      "achievedBadgeIds": ["badge-01"]
+    },
+
+    "rfmSegment": "at_risk",
+    "behavioralTags": ["lunch_diner", "healthy_eater", "vegetarian_leaning"],
+    "acquisitionSource": "facebook_ad",
+    "acquisitionChannel": "social_media",
+    "referredByUserId": null,
+    "affiliateCode": null,
+
+    "communicationPreferences": {
+      "allowEmailMarketing": true,
+      "allowPushNotifications": true,
+      "allowSms": true
+    },
+    "defaultPaymentMethodId": null,
+    "savedAddresses": [
+      {
+        "id": "addr-03",
+        "label": "Văn phòng cũ",
+        "address": "Tòa nhà Saigon Centre, Quận 1"
+      }
+    ],
+    "dietaryPreferenceIds": ["diet-01", "diet-03"],
+
+    "createdAt": "2022-08-05T11:45:00Z",
+    "updatedAt": "2023-07-15T20:30:00Z",
+    "lastSeenAt": "2023-09-01T12:00:00Z"
+  }
+]

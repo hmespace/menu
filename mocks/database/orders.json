@@ -1,0 +1,298 @@
+[
+  {
+    "id": "order-01",
+    "shortId": "A7B3C",
+    "type": "dine_in",
+    "source": "qr_scan",
+
+    "brandId": "brand-01",
+    "locationId": "loc-01",
+    "tableId": "table-01",
+    "userId": "user-01",
+    "staffId_created": null,
+    "staffId_assigned": "staff-01",
+    "kdsTicketId": "kds-ticket-01",
+    "parentOrderId": null,
+
+    "orderStatus": "completed",
+    "paymentStatus": "paid",
+    "fulfillmentStatus": "closed",
+    "createdAt": "2023-10-27T12:05:00Z",
+    "confirmedAt": "2023-10-27T12:05:10Z",
+    "firstItemServedAt": "2023-10-27T12:15:00Z",
+    "lastItemServedAt": "2023-10-27T12:22:00Z",
+    "completedAt": "2023-10-27T12:45:00Z",
+    "cancelledAt": null,
+    "cancellationReason": null,
+
+    "subtotal": 315000,
+    "totalItemDiscount": 0,
+    "orderDiscount": 31500,
+    "subtotalAfterDiscount": 283500,
+    "tax": 28350,
+    "serviceCharge": 14175,
+    "tip": 20000,
+    "deliveryFee": 0,
+    "totalAmount": 346025,
+    "amountPaid": 346025,
+    "amountRemaining": 0,
+    "currency": "VND",
+
+    "orderNote": "Bàn mình có trẻ nhỏ, cho mình một ghế em bé nhé.",
+    "customerFeedbackRating": 5,
+    "customerFeedbackComment": "Đồ ăn ngon, phục vụ nhanh!",
+    "deviceInfo": { "os": "iOS", "browser": "Safari", "ip": "113.161.x.x" },
+
+    "orderItems": [
+      {
+        "id": "item-01",
+        "dishSnapshot": {
+          "id": "dish-01",
+          "name": "Bò Bít Tết Sốt Tiêu Xanh",
+          "price": 250000
+        },
+        "quantity": 1,
+        "unitPrice": 250000,
+        "totalPrice": 250000,
+        "options": [
+          { "groupName": "Độ chín của bò", "name": "Chín Vừa (Medium)" }
+        ],
+        "note": "Không lấy nhiều tiêu.",
+        "status": "served",
+        "isGift": false
+      },
+      {
+        "id": "item-02",
+        "dishSnapshot": {
+          "id": "dish-02",
+          "name": "Khoai Tây Chiên Tỏi",
+          "price": 65000
+        },
+        "quantity": 1,
+        "unitPrice": 65000,
+        "totalPrice": 65000,
+        "options": [],
+        "note": null,
+        "status": "served",
+        "isGift": false
+      }
+    ],
+    "payments": [
+      {
+        "id": "payment-01",
+        "amount": 346025,
+        "method": "vietqr",
+        "status": "successful",
+        "transactionCode": "FT23300..."
+      }
+    ],
+    "appliedVouchers": [
+      {
+        "code": "WELCOME10",
+        "name": "Giảm 10% cho đơn hàng đầu tiên",
+        "discountAmount": 31500
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "pending_confirmation",
+        "timestamp": "2023-10-27T12:05:00Z",
+        "changedBy": "user-01"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2023-10-27T12:05:10Z",
+        "changedBy": "kds-system"
+      },
+      {
+        "status": "completed",
+        "timestamp": "2023-10-27T12:45:00Z",
+        "changedBy": "staff-01"
+      }
+    ]
+  },
+
+  {
+    "id": "order-02",
+    "shortId": "D8E4F",
+    "type": "dine_in",
+    "source": "qr_scan",
+    "brandId": "brand-01",
+    "locationId": "loc-01",
+    "tableId": "table-02",
+    "userId": "user-02",
+    "staffId_created": null,
+    "staffId_assigned": "staff-02",
+    "kdsTicketId": "kds-ticket-02",
+    "parentOrderId": null,
+    "orderStatus": "cancelled",
+    "paymentStatus": "unpaid",
+    "fulfillmentStatus": "cancelled",
+    "createdAt": "2023-10-28T19:00:00Z",
+    "confirmedAt": "2023-10-28T19:01:00Z",
+    "firstItemServedAt": null,
+    "lastItemServedAt": null,
+    "completedAt": null,
+    "cancelledAt": "2023-10-28T19:05:00Z",
+    "cancellationReason": "item_unavailable",
+    "subtotal": 850000,
+    "totalItemDiscount": 0,
+    "orderDiscount": 0,
+    "subtotalAfterDiscount": 850000,
+    "tax": 0,
+    "serviceCharge": 0,
+    "tip": 0,
+    "deliveryFee": 0,
+    "totalAmount": 850000,
+    "amountPaid": 0,
+    "amountRemaining": 850000,
+    "currency": "VND",
+    "orderNote": "Bàn mình đi 4 người, sẽ có người đến sau.",
+    "customerFeedbackRating": null,
+    "customerFeedbackComment": null,
+    "deviceInfo": { "os": "Android", "browser": "Chrome", "ip": "1.53.x.x" },
+    "orderItems": [
+      {
+        "id": "item-03",
+        "dishSnapshot": {
+          "id": "dish-01",
+          "name": "Bò Bít Tết Sốt Tiêu Xanh",
+          "price": 250000
+        },
+        "quantity": 2,
+        "unitPrice": 250000,
+        "totalPrice": 500000,
+        "options": [
+          { "groupName": "Độ chín của bò", "name": "Tái (Rare)" },
+          { "groupName": "Độ chín của bò", "name": "Chín Vừa (Medium)" }
+        ],
+        "note": "1 phần tái, 1 phần chín vừa.",
+        "status": "cancelled",
+        "isGift": false
+      },
+      {
+        "id": "item-04",
+        "dishSnapshot": {
+          "id": "dish-03",
+          "name": "Trà Vải Hoa Hồng Mùa Hè",
+          "price": 65000
+        },
+        "quantity": 4,
+        "unitPrice": 65000,
+        "totalPrice": 260000,
+        "options": [],
+        "note": "2 ly ít đường.",
+        "status": "cancelled",
+        "isGift": true,
+        "recipientNote": "Chúc mừng sinh nhật bạn B!"
+      }
+    ],
+    "payments": [],
+    "appliedVouchers": [],
+    "statusHistory": [
+      {
+        "status": "pending_confirmation",
+        "timestamp": "2023-10-28T19:00:00Z",
+        "changedBy": "user-02"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2023-10-28T19:01:00Z",
+        "changedBy": "kds-system"
+      },
+      {
+        "status": "cancelled",
+        "timestamp": "2023-10-28T19:05:00Z",
+        "changedBy": "staff-02",
+        "reason": "Hết bò Úc"
+      }
+    ]
+  },
+
+  {
+    "id": "order-03",
+    "shortId": "G9H1J",
+    "type": "delivery",
+    "source": "web",
+    "brandId": "brand-01",
+    "locationId": "loc-01",
+    "tableId": null,
+    "userId": "user-03",
+    "staffId_created": null,
+    "staffId_assigned": null,
+    "kdsTicketId": "kds-ticket-03",
+    "parentOrderId": null,
+    "subscriptionId": "sub-weekly-01",
+    "orderStatus": "serving",
+    "paymentStatus": "unpaid",
+    "fulfillmentStatus": "out_for_delivery",
+    "createdAt": "2023-10-29T11:30:00Z",
+    "confirmedAt": "2023-10-29T11:30:15Z",
+    "firstItemServedAt": null,
+    "lastItemServedAt": null,
+    "completedAt": null,
+    "cancelledAt": null,
+    "cancellationReason": null,
+    "subtotal": 120000,
+    "totalItemDiscount": 0,
+    "orderDiscount": 0,
+    "subtotalAfterDiscount": 120000,
+    "tax": 12000,
+    "serviceCharge": 0,
+    "tip": 0,
+    "deliveryFee": 30000,
+    "totalAmount": 162000,
+    "amountPaid": 0,
+    "amountRemaining": 162000,
+    "currency": "VND",
+    "orderNote": "Giao hàng nhanh giúp mình nhé, cảm ơn!",
+    "customerFeedbackRating": null,
+    "customerFeedbackComment": null,
+    "deviceInfo": { "os": "Windows", "browser": "Edge", "ip": "27.72.x.x" },
+    "deliveryInfo": {
+      "address": "Tòa nhà Bitexco, 2 Hải Triều, P. Bến Nghé, Quận 1",
+      "latitude": 10.7719,
+      "longitude": 106.7045,
+      "contactName": "Trần Văn C",
+      "contactPhone": "0912987654",
+      "estimatedDeliveryAt": "2023-10-29T12:15:00Z",
+      "driverId": "driver-01"
+    },
+    "orderItems": [
+      {
+        "id": "item-05",
+        "dishSnapshot": {
+          "id": "dish-02",
+          "name": "Khoai Tây Chiên Tỏi",
+          "price": 65000
+        },
+        "quantity": 2,
+        "unitPrice": 60000,
+        "totalPrice": 120000,
+        "options": [],
+        "note": null,
+        "status": "ready_for_pickup",
+        "isGift": false
+      }
+    ],
+    "payments": [],
+    "appliedVouchers": [],
+    "statusHistory": [
+      {
+        "status": "pending_confirmation",
+        "timestamp": "2023-10-29T11:30:00Z",
+        "changedBy": "system-subscription"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2023-10-29T11:30:15Z",
+        "changedBy": "kds-system"
+      },
+      {
+        "status": "serving",
+        "timestamp": "2023-10-29T11:55:00Z",
+        "changedBy": "staff-01"
+      }
+    ]
+  }
+]

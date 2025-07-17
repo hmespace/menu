@@ -1,0 +1,123 @@
+[
+  {
+    "id": "promo-01",
+    "internalName": "[ACQ] Welcome New User 10%",
+    "publicName": "Ưu đãi Chào Bạn Mới",
+    "description": "Giảm 10% cho đơn hàng đầu tiên của bạn tại Daring Coder Bistro. Cảm ơn đã tham gia cùng chúng tôi!",
+    "imageUrl": "https://example.com/promo/welcome.png",
+
+    "type": "PERCENTAGE_DISCOUNT",
+    "benefit": {
+      "value": 10,
+      "maxDiscountAmount": 50000
+    },
+    "applyTo": "WHOLE_ORDER",
+
+    "trigger": "VOUCHER_CODE",
+    "isStackable": false,
+    "conditions": [
+      { "type": "MINIMUM_SPEND", "value": 200000 },
+      { "type": "USER_SEGMENT", "value": "new_customers" },
+      { "type": "MAX_ORDER_COUNT", "value": 0 }
+    ],
+
+    "totalUsageLimit": 10000,
+    "userUsageLimit": 1,
+    "scope": "GLOBAL",
+    "applicableLocationIds": [],
+    "excludedDishIds": ["dish-combo-01"],
+
+    "status": "active",
+    "startDate": "2023-01-01T00:00:00Z",
+    "endDate": "2024-12-31T23:59:59Z",
+    "createdAt": "2022-12-20T10:00:00Z"
+  },
+
+
+  {
+    "id": "promo-02",
+    "internalName": "[RET] Happy Hour Drinks Q1",
+    "publicName": "Giờ Vàng Vui Vẻ",
+    "description": "Đồng giá 39,000đ cho tất cả các loại trà và cà phê trong khung giờ vàng.",
+    "imageUrl": "https://example.com/promo/happy-hour.png",
+    "type": "FIXED_PRICE_FOR_ITEMS",
+    "benefit": {
+      "value": 39000,
+      "applicableCategoryIds": ["cat-03"]
+    },
+    "applyTo": "SPECIFIC_ITEMS",
+    "trigger": "AUTOMATIC",
+    "isStackable": true,
+    "conditions": [
+      { "type": "TIME_OF_DAY", "value": { "from": "14:00", "to": "17:00" } },
+      { "type": "DAY_OF_WEEK", "value": [1, 2, 3, 4, 5] }
+    ],
+    "totalUsageLimit": null,
+    "userUsageLimit": null,
+    "scope": "LOCATION_SPECIFIC",
+    "applicableLocationIds": ["loc-01"],
+    "excludedDishIds": [],
+    "status": "active",
+    "startDate": "2023-05-01T00:00:00Z",
+    "endDate": null,
+    "createdAt": "2023-04-28T15:00:00Z"
+  },
+
+
+  {
+    "id": "promo-03",
+    "internalName": "[AOV] Lunch Combo Main+Drink",
+    "publicName": "Combo Bữa Trưa Năng Lượng",
+    "description": "Chỉ 269,000đ cho một phần Bò Bít Tết và một ly Nước Chanh Sả Gừng. Tiết kiệm đến 26,000đ!",
+    "imageUrl": "https://example.com/promo/lunch-combo.png",
+    "type": "BUNDLE_PRICE",
+    "benefit": {
+      "bundlePrice": 269000,
+      "dishIds": ["dish-01", "dish-02"]
+    },
+    "applyTo": "SPECIFIC_ITEMS",
+    "trigger": "AUTOMATIC",
+    "isStackable": false,
+    "conditions": [
+      { "type": "REQUIRED_DISHES_ALL", "value": ["dish-01", "dish-02"] }
+    ],
+    "totalUsageLimit": null,
+    "userUsageLimit": null,
+    "scope": "GLOBAL",
+    "applicableLocationIds": [],
+    "excludedDishIds": [],
+    "status": "active",
+    "startDate": "2023-09-01T00:00:00Z",
+    "endDate": null,
+    "createdAt": "2023-08-25T12:00:00Z"
+  },
+
+
+  {
+    "id": "promo-04",
+    "internalName": "[DEL] Freeship Q7",
+    "publicName": "Miễn Phí Giao Hàng Quận 7",
+    "description": "Miễn phí vận chuyển cho mọi đơn hàng trên 300,000đ tại khu vực Quận 7.",
+    "imageUrl": "https://example.com/promo/freeship.png",
+    "type": "FREE_SHIPPING",
+    "benefit": {
+      "maxShippingFee": 35000
+    },
+    "applyTo": "WHOLE_ORDER",
+    "trigger": "AUTOMATIC",
+    "isStackable": true,
+    "conditions": [
+      { "type": "MINIMUM_SPEND", "value": 300000 },
+      { "type": "DELIVERY_ZONE", "value": "district-7" }
+    ],
+    "totalUsageLimit": null,
+    "userUsageLimit": null,
+    "scope": "LOCATION_SPECIFIC",
+    "applicableLocationIds": ["loc-03"],
+    "excludedDishIds": [],
+    "status": "active",
+    "startDate": "2023-10-01T00:00:00Z",
+    "endDate": null,
+    "createdAt": "2023-09-28T17:00:00Z"
+  }
+]
