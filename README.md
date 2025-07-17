@@ -55,6 +55,6 @@ Prototype của bạn là **sân khấu chung** nơi công sức của tất c�
 Chúng tôi tin tưởng vào chuyên môn của bạn.
 
 1.  **Tạo Mock Data Tối giản của riêng bạn:** **Đây là cách làm được khuyến khích.** Hãy tạo một file mock nhỏ, chỉ chứa những dữ liệu bạn thực sự cần cho component đang làm.
-2.  **Coi `/mocks/database.json` như một Từ điển:** Khi bạn cần mở rộng component hoặc muốn biết một thuộc tính trong tương lai có thể trông như thế nào, hãy mở [`database.json`](./mocks/database.json) ra để **tra cứu và tham khảo**.
+2.  **Coi `/mocks/database` như một Từ điển:** Khi bạn cần mở rộng component hoặc muốn biết một thuộc tính trong tương lai có thể trông như thế nào, hãy mở [`database`](./mocks/database) ra để **tra cứu và tham khảo**.
 
 Vai trò của các bạn là then chốt. Các bạn là người đầu tiên biến ý tưởng thành hiện thực, tạo ra một nền tảng trực quan để toàn bộ các đội ngũ kỹ thuật khác có thể kết nối và xây dựng dựa trên đó.
