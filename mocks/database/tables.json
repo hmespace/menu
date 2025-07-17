@@ -1,0 +1,141 @@
+[
+  {
+    "id": "table-01",
+    "locationId": "loc-01",
+    "name": "Bàn 12",
+    "slug": "ban-12",
+
+    "capacity": 4,
+    "shape": "square",
+    "section": "Khu vực cửa sổ",
+    "attributes": ["window_seat", "power_outlet", "popular"],
+
+    "status": "occupied",
+    "activeOrderId": "order-01",
+    "assignedStaffId": "staff-01",
+    "seatedAt": "2023-10-29T18:30:00Z",
+    "callStatus": "none",
+
+    "qrCodeUrl": "https://app.iqr.vn/daring-coder-bistro/12",
+    "nfcTagId": "nfc-tag-12A3B4",
+    "iotDeviceId": "iot-sensor-table-12",
+
+    "isReservable": true,
+    "currentReservationId": null,
+    "nextReservationAt": "2023-10-29T20:30:00Z",
+
+    "kpiSnapshot": {
+      "period": "last_30_days",
+      "totalRevenue": 150000000,
+      "averageSpendPerVisit": 750000,
+      "turnoverRate": 3.5,
+      "occupancyPercentage": 0.85
+    },
+
+    "createdAt": "2022-01-01T09:00:00Z",
+    "updatedAt": "2023-10-29T18:30:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "table-02",
+    "locationId": "loc-01",
+    "name": "Bàn 5",
+    "slug": "ban-5",
+    "capacity": 4,
+    "shape": "round",
+    "section": "Khu vực trung tâm",
+    "attributes": [],
+    "status": "available",
+    "activeOrderId": null,
+    "assignedStaffId": null,
+    "seatedAt": null,
+    "callStatus": "none",
+    "qrCodeUrl": "https://app.iqr.vn/daring-coder-bistro/5",
+    "nfcTagId": "nfc-tag-5C6D7E",
+    "iotDeviceId": null,
+    "isReservable": true,
+    "currentReservationId": null,
+    "nextReservationAt": null,
+    "kpiSnapshot": {
+      "period": "last_30_days",
+      "totalRevenue": 95000000,
+      "averageSpendPerVisit": 680000,
+      "turnoverRate": 2.8,
+      "occupancyPercentage": 0.7
+    },
+    "createdAt": "2022-01-01T09:00:00Z",
+    "updatedAt": "2023-10-29T18:00:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "table-03",
+    "locationId": "loc-01",
+    "name": "Ghế Bar 3",
+    "slug": "ghe-bar-3",
+    "capacity": 1,
+    "shape": "bar_seat",
+    "section": "Khu vực quầy bar",
+    "attributes": ["solo_diner_friendly"],
+    "status": "needs_cleaning",
+    "activeOrderId": null,
+    "assignedStaffId": null,
+    "seatedAt": null,
+    "callStatus": "none",
+    "qrCodeUrl": "https://app.iqr.vn/daring-coder-bistro/bar-3",
+    "nfcTagId": null,
+    "iotDeviceId": null,
+    "isReservable": false,
+    "currentReservationId": null,
+    "nextReservationAt": null,
+    "kpiSnapshot": {
+      "period": "last_30_days",
+      "totalRevenue": 45000000,
+      "averageSpendPerVisit": 350000,
+      "turnoverRate": 5.0,
+      "occupancyPercentage": 0.65
+    },
+    "createdAt": "2022-01-01T09:00:00Z",
+    "updatedAt": "2023-10-29T19:15:00Z",
+    "isArchived": false
+  },
+
+  {
+    "id": "table-04",
+    "locationId": "loc-01",
+    "name": "Bàn 8",
+    "slug": "ban-8",
+    "capacity": 6,
+    "shape": "rectangle",
+    "section": "Khu vực riêng tư",
+    "attributes": ["private", "good_for_groups"],
+    "status": "reserved",
+    "activeOrderId": null,
+    "assignedStaffId": null,
+    "seatedAt": null,
+    "callStatus": "none",
+    "qrCodeUrl": "https://app.iqr.vn/daring-coder-bistro/8",
+    "nfcTagId": "nfc-tag-8F9G0H",
+    "iotDeviceId": null,
+    "isReservable": true,
+    "currentReservationId": "res-xyz-123",
+    "reservationInfo": {
+      "guestName": "Nguyễn Thị Lan",
+      "guestCount": 6,
+      "reservationTime": "2023-10-29T19:30:00Z",
+      "note": "Bàn cho tiệc sinh nhật."
+    },
+    "nextReservationAt": null,
+    "kpiSnapshot": {
+      "period": "last_30_days",
+      "totalRevenue": 120000000,
+      "averageSpendPerVisit": 950000,
+      "turnoverRate": 2.2,
+      "occupancyPercentage": 0.75
+    },
+    "createdAt": "2022-01-01T09:00:00Z",
+    "updatedAt": "2023-10-29T19:00:00Z",
+    "isArchived": false
+  }
+]

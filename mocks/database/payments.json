@@ -1,0 +1,153 @@
+[
+  {
+    "id": "payment-01",
+    "shortId": "TXN-A7B3C-1",
+    "orderId": "order-01",
+    "userId": "user-01",
+
+    "amount": 346025,
+    "currency": "VND",
+    "paymentType": "order_payment",
+
+    "method": "vietqr",
+    "provider": "VietQR",
+    "methodDetails": {
+      "bankCode": "970436",
+      "accountNumber": "0123456789"
+    },
+
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-27T12:44:00Z",
+    "processedAt": "2023-10-27T12:44:05Z",
+
+    "billSplitParticipantId": null,
+    "staffId": null,
+    "invoiceId": "INV-2023-10-001",
+
+    "transactionCode": "FT23300ABCXYZ",
+    "reconciliationStatus": "reconciled",
+    "notes": "Thanh toán cho đơn hàng #A7B3C"
+  },
+
+  {
+    "id": "payment-02",
+    "shortId": "TXN-D8E4F-1",
+    "orderId": "order-02",
+    "userId": "user-02",
+    "amount": 100000,
+    "currency": "VND",
+    "paymentType": "order_payment_partial",
+    "method": "wallet_balance",
+    "provider": "In-House Wallet",
+    "methodDetails": {},
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-28T19:30:00Z",
+    "processedAt": "2023-10-28T19:30:01Z",
+    "billSplitParticipantId": "split-participant-01",
+    "staffId": null,
+    "invoiceId": "INV-2023-10-002",
+    "transactionCode": "WALLET-DEBIT-XYZ",
+    "reconciliationStatus": "reconciled",
+    "notes": "Thanh toán 100,000đ từ ví cho phần của tôi."
+  },
+  {
+    "id": "payment-03",
+    "shortId": "TXN-D8E4F-2",
+    "orderId": "order-02",
+    "userId": "user-02",
+    "amount": 750000,
+    "currency": "VND",
+    "paymentType": "order_payment_partial",
+    "method": "card",
+    "provider": "Stripe",
+    "methodDetails": {
+      "cardBrand": "visa",
+      "last4": "4242",
+      "expiryMonth": 12,
+      "expiryYear": 2025
+    },
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-28T19:30:10Z",
+    "processedAt": "2023-10-28T19:30:12Z",
+    "billSplitParticipantId": "split-participant-01",
+    "staffId": null,
+    "invoiceId": "INV-2023-10-002",
+    "transactionCode": "ch_3O5...",
+    "reconciliationStatus": "reconciled",
+    "notes": "Thanh toán phần còn lại bằng thẻ Visa."
+  },
+
+  {
+    "id": "payment-04",
+    "shortId": "TXN-K1L2M-1",
+    "orderId": "order-04",
+    "userId": null,
+    "amount": 200000,
+    "currency": "VND",
+    "paymentType": "order_payment",
+    "method": "cash",
+    "provider": "On-Premise",
+    "methodDetails": {
+      "cashReceived": 500000,
+      "changeGiven": 300000
+    },
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-29T14:00:00Z",
+    "processedAt": "2023-10-29T14:00:00Z",
+    "billSplitParticipantId": null,
+    "staffId": "staff-01",
+    "invoiceId": "INV-2023-10-003",
+    "transactionCode": null,
+    "reconciliationStatus": "pending",
+    "notes": "Khách đưa tờ 500k."
+  },
+  {
+    "id": "payment-05",
+    "shortId": "TXN-K1L2M-2",
+    "orderId": "order-04",
+    "userId": null,
+    "amount": 50000,
+    "currency": "VND",
+    "paymentType": "refund",
+    "method": "cash",
+    "provider": "On-Premise",
+    "methodDetails": {},
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-29T14:15:00Z",
+    "processedAt": "2023-10-29T14:15:00Z",
+    "billSplitParticipantId": null,
+    "staffId": "staff-03",
+    "invoiceId": "INV-2023-10-003",
+    "transactionCode": null,
+    "reconciliationStatus": "pending",
+    "notes": "Hoàn tiền cho khách vì món ăn bị lỗi."
+  },
+
+  {
+    "id": "payment-06",
+    "shortId": "TXN-WALLET-TOPUP-1",
+    "orderId": null,
+    "userId": "user-04",
+    "amount": 1000000,
+    "currency": "VND",
+    "paymentType": "wallet_top_up",
+    "method": "e-wallet",
+    "provider": "MoMo",
+    "methodDetails": {},
+    "status": "successful",
+    "failureReason": null,
+    "createdAt": "2023-10-25T17:59:00Z",
+    "processedAt": "2023-10-25T17:59:05Z",
+    "billSplitParticipantId": null,
+    "staffId": null,
+    "invoiceId": null,
+    "transactionCode": "MOMO-TRANS-12345",
+    "reconciliationStatus": "reconciled",
+    "notes": "Nạp 1,000,000đ vào ví IQR."
+  }
+]

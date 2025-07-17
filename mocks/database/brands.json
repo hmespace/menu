@@ -1,0 +1,155 @@
+[
+  {
+    "id": "brand-01",
+    "name": "Daring Coder Bistro",
+    "slug": "daring-coder-bistro",
+    "tagline": "Nơi Công nghệ và Ẩm thực Giao thoa",
+    "description": "Một chuỗi nhà hàng hiện đại mang đến trải nghiệm ẩm thực tinh tế, được nâng tầm bởi công nghệ liền mạch và dịch vụ cá nhân hóa.",
+    "platformMode": "full_service",
+
+    "visualIdentity": {
+      "logoUrl": "https://example.com/logo/dcb-dark.svg",
+      "logoLightUrl": "https://example.com/logo/dcb-light.svg",
+      "faviconUrl": "https://example.com/favicon.ico",
+      "primaryColor": "#6A1B9A",
+      "secondaryColor": "#FDD835",
+      "accentColor": "#D81B60",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#121212",
+      "fontFamily": "'Inter', sans-serif"
+    },
+
+    "legalInfo": {
+      "companyName": "Công ty Cổ phần Ẩm thực Daring Coder",
+      "taxId": "0312345678",
+      "address": "Tầng 42, Bitexco Financial Tower, 2 Hải Triều, P. Bến Nghé, Quận 1, TP.HCM"
+    },
+    "publicContact": {
+      "phone": "1900 1234",
+      "email": "hello@daringcoder.vn",
+      "website": "https://daringcoder.vn"
+    },
+
+    "featureFlags": {
+      "enableNfc": true,
+      "enableAiSearch": true,
+      "enablePreOrdering": true,
+      "enableGroupOrdering": true,
+      "enableGifting": true,
+      "enableTipping": true,
+      "enableWallet": true,
+      "enableInternationalPayments": true,
+      "enableGamification": true,
+      "enableMembershipTiers": true,
+      "enableInventoryManagement": true,
+      "enableDynamicPricing": false,
+      "enableSustainabilityTracking": true,
+      "enableABTesting": true,
+      "enableAffiliateProgram": true,
+      "enableOpenApi": true
+    },
+
+    "defaultLanguage": "vi",
+    "supportedLanguages": ["vi", "en", "ja"],
+    "defaultCurrency": "VND",
+    "supportedCurrencies": ["VND", "USD"],
+    "defaultTimezone": "Asia/Ho_Chi_Minh",
+
+    "loyaltySettings": {
+      "pointsEarnRatio": 1000,
+      "pointsCurrencyName": "DC Point",
+      "referralReward": { "type": "points", "value": 5000 }
+    },
+    "tippingSettings": {
+      "suggestedPercentages": [10, 15, 20],
+      "allowCustomAmount": true
+    },
+    "socialMediaLinks": {
+      "facebook": "...",
+      "instagram": "...",
+      "tiktok": "..."
+    },
+
+    "integrationKeys": {
+      "payment": {
+        "stripePublishableKey": "pk_live_...",
+        "momoPartnerCode": "..."
+      },
+      "analytics": {
+        "googleAnalyticsId": "G-...",
+        "segmentWriteKey": "..."
+      },
+      "accounting": { "misaApiKey": "..." }
+    },
+
+    "status": "active",
+    "createdAt": "2022-01-01T09:00:00Z"
+  },
+
+  {
+    "id": "brand-02",
+    "name": "Quick Phở",
+    "slug": "quick-pho",
+    "tagline": "Phở ngon trong 5 phút",
+    "description": "Chuỗi phở hiện đại, phục vụ nhanh chóng, giá cả hợp lý, phù hợp cho dân văn phòng và gia đình.",
+    "platformMode": "full_service",
+    "visualIdentity": {
+      "logoUrl": "https://example.com/logo/quickpho.svg",
+      "logoLightUrl": "https://example.com/logo/quickpho-light.svg",
+      "faviconUrl": "https://example.com/favicon-qp.ico",
+      "primaryColor": "#D32F2F",
+      "secondaryColor": "#FFFFFF",
+      "accentColor": "#FFC107",
+      "backgroundColor": "#F5F5F5",
+      "textColor": "#212121",
+      "fontFamily": "'Roboto', sans-serif"
+    },
+    "legalInfo": {
+      "companyName": "Công ty TNHH Phở Nhanh",
+      "taxId": "0398765432",
+      "address": "..."
+    },
+    "publicContact": {
+      "phone": "1900 5678",
+      "email": "cskh@quickpho.vn",
+      "website": "https://quickpho.vn"
+    },
+    "featureFlags": {
+      "enableNfc": false,
+      "enableAiSearch": false,
+      "enablePreOrdering": true,
+      "enableGroupOrdering": true,
+      "enableGifting": false,
+      "enableTipping": false,
+      "enableWallet": true,
+      "enableInternationalPayments": false,
+      "enableGamification": false,
+      "enableMembershipTiers": false,
+      "enableInventoryManagement": true,
+      "enableDynamicPricing": false,
+      "enableSustainabilityTracking": false,
+      "enableABTesting": false,
+      "enableAffiliateProgram": false,
+      "enableOpenApi": false
+    },
+    "defaultLanguage": "vi",
+    "supportedLanguages": ["vi"],
+    "defaultCurrency": "VND",
+    "supportedCurrencies": ["VND"],
+    "defaultTimezone": "Asia/Ho_Chi_Minh",
+    "loyaltySettings": {
+      "pointsEarnRatio": 1000,
+      "pointsCurrencyName": "QP Point",
+      "referralReward": null
+    },
+    "tippingSettings": null,
+    "socialMediaLinks": { "facebook": "..." },
+    "integrationKeys": {
+      "payment": { "stripePublishableKey": null, "momoPartnerCode": "..." },
+      "analytics": { "googleAnalyticsId": "G-..." },
+      "accounting": null
+    },
+    "status": "active",
+    "createdAt": "2022-08-10T11:00:00Z"
+  }
+]

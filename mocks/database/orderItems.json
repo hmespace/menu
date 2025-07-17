@@ -1,0 +1,154 @@
+[
+  {
+    "id": "item-01",
+    "orderId": "order-01",
+
+    "dishSnapshot": {
+      "id": "dish-01",
+      "name": "Bò Bít Tết Sốt Tiêu Xanh",
+      "price": 250000,
+      "sku": "BEEFSTEAK-200G-PPR",
+      "imageUrl": "https://example.com/beefsteak-primary.jpg"
+    },
+
+    "quantity": 1,
+    "unitPrice": 250000,
+    "totalPriceBeforeDiscount": 250000,
+    "itemLevelDiscount": 0,
+    "totalPrice": 250000,
+
+    "optionsSnapshot": [
+      {
+        "groupName": "Độ chín của bò",
+        "optionName": "Chín Vừa (Medium)",
+        "priceAdjustment": 0
+      },
+      {
+        "groupName": "Món ăn kèm",
+        "optionName": "Khoai tây nghiền",
+        "priceAdjustment": 0
+      }
+    ],
+    "note": "Không lấy nhiều tiêu, cảm ơn.",
+    "addedByUserId": "user-01",
+    "isGift": false,
+
+    "status": "served",
+    "kitchenTicketItemId": "kds-item-01a",
+    "prepTimeTargetSeconds": 900,
+    "prepTimeActualSeconds": 840,
+    "createdAt": "2023-10-27T12:05:00Z",
+    "confirmedAt": "2023-10-27T12:05:10Z",
+    "servedAt": "2023-10-27T12:19:10Z",
+
+    "reviewId": "review-01",
+    "isReturned": false,
+    "returnReason": null
+  },
+
+  {
+    "id": "item-02",
+    "orderId": "order-01",
+    "dishSnapshot": {
+      "id": "dish-02",
+      "name": "Khoai Tây Chiên Tỏi",
+      "price": 65000,
+      "sku": "FRIES-GARLIC-SIDE",
+      "imageUrl": "https://example.com/fries-primary.jpg"
+    },
+    "quantity": 1,
+    "unitPrice": 65000,
+    "totalPriceBeforeDiscount": 65000,
+    "itemLevelDiscount": 0,
+    "totalPrice": 65000,
+    "optionsSnapshot": [],
+    "note": null,
+    "addedByUserId": "user-01",
+    "isGift": false,
+    "status": "served",
+    "kitchenTicketItemId": "kds-item-01b",
+    "prepTimeTargetSeconds": 420,
+    "prepTimeActualSeconds": 390,
+    "createdAt": "2023-10-27T12:05:00Z",
+    "confirmedAt": "2023-10-27T12:05:10Z",
+    "servedAt": "2023-10-27T12:12:00Z",
+    "reviewId": null,
+    "isReturned": false,
+    "returnReason": null
+  },
+
+  {
+    "id": "item-03",
+    "orderId": "order-02",
+    "dishSnapshot": {
+      "id": "dish-03",
+      "name": "Trà Vải Hoa Hồng Mùa Hè",
+      "price": 65000,
+      "sku": "TEA-LYCHEE-ROSE-SUMMER",
+      "imageUrl": "https://example.com/lychee-tea.jpg"
+    },
+    "quantity": 4,
+    "unitPrice": 65000,
+    "totalPriceBeforeDiscount": 260000,
+    "itemLevelDiscount": 260000,
+    "totalPrice": 0,
+    "optionsSnapshot": [
+      {
+        "groupName": "Mức đường",
+        "optionName": "Ít đường",
+        "priceAdjustment": 0
+      }
+    ],
+    "note": "2 ly ít đường, 2 ly bình thường.",
+    "addedByUserId": "user-02",
+    "isGift": true,
+    "recipientNote": "Chúc mừng sinh nhật bạn B!",
+    "status": "cancelled",
+    "kitchenTicketItemId": "kds-item-02a",
+    "prepTimeTargetSeconds": 300,
+    "prepTimeActualSeconds": null,
+    "createdAt": "2023-10-28T19:00:00Z",
+    "confirmedAt": "2023-10-28T19:01:00Z",
+    "servedAt": null,
+    "cancellationDetails": {
+      "cancelledAt": "2023-10-28T19:05:00Z",
+      "cancelledByStaffId": "staff-02",
+      "reason": "item_unavailable",
+      "note": "Hết vải tươi."
+    },
+    "reviewId": null,
+    "isReturned": false,
+    "returnReason": null
+  },
+
+  {
+    "id": "item-04",
+    "orderId": "order-03",
+    "dishSnapshot": {
+      "id": "dish-02",
+      "name": "Khoai Tây Chiên Tỏi",
+      "price": 60000,
+      "sku": "FRIES-GARLIC-SIDE",
+      "imageUrl": "https://example.com/fries-primary.jpg"
+    },
+    "quantity": 2,
+    "unitPrice": 60000,
+    "totalPriceBeforeDiscount": 120000,
+    "itemLevelDiscount": 0,
+    "totalPrice": 120000,
+    "optionsSnapshot": [],
+    "note": null,
+    "addedByUserId": "user-03",
+    "isGift": false,
+    "status": "ready_for_pickup",
+    "kitchenTicketItemId": "kds-item-03a",
+    "prepTimeTargetSeconds": 420,
+    "prepTimeActualSeconds": 400,
+    "createdAt": "2023-10-29T11:30:00Z",
+    "confirmedAt": "2023-10-29T11:30:15Z",
+    "servedAt": null,
+    "reviewId": null,
+    "isReturned": false,
+    "returnReason": null
+  }
+]
