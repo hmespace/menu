@@ -10,13 +10,13 @@ Kho lưu trữ này không chứa code. Đây là nơi lưu giữ và kết nố
 
 Mọi công việc đều bắt đầu từ định hướng chiến lược. Hãy luôn tham khảo theo thứ tự sau:
 
-*   **Cấp 1: `ROADMAP.md` - La bàn Chiến lược (The "Why")**
+*   **Cấp 1: [`ROADMAP.md`](./ROADMAP.md) - La bàn Chiến lược (The "Why")**
     *   **Đây là nguồn tham chiếu chính và tối cao.** Nó trả lời câu hỏi **TẠI SAO** chúng ta xây dựng một tính năng. Mọi ưu tiên và định hướng đều bắt nguồn từ đây.
 
-*   **Cấp 2: Thư mục `/docs` - Bản thiết kế Trải nghiệm (The "What")**
+*   **Cấp 2: Thư mục [`docs`](./docs) - Bản thiết kế Trải nghiệm (The "What")**
     *   Sau khi đã có "Why", các file LFP trong này sẽ mô tả chi tiết **CÁI GÌ** chúng ta cần xây dựng – luồng người dùng, các kịch bản, và nguyên tắc thiết kế.
 
-*   **Cấp 3: `DATASET.md` & `/mocks` - Từ điển Dữ liệu Tham khảo (The "How")**
+*   **Cấp 3: [`DATASETS.md`](./DATASETS.md) & `/mocks` - Từ điển Dữ liệu Tham khảo (The "How")**
     *   Đây là các tài liệu **tham khảo** về kiến trúc dữ liệu trong tương lai. Chúng cung cấp cảm hứng và định hướng cho câu hỏi **NHƯ THẾ NÀO** dữ liệu có thể được cấu trúc.
 
 ---
@@ -42,7 +42,7 @@ Frontend không chỉ xây dựng giao diện. Các bạn đang xây dựng **s�
 
 Chúng tôi tin tưởng vào chuyên môn của bạn. Hãy sử dụng các tài liệu này một cách linh hoạt.
 
-1.  **Bắt đầu từ Định hướng:** Luôn đọc `ROADMAP.md` và LFP trong `/docs` trước tiên để hiểu rõ mục tiêu.
+1.  **Bắt đầu từ Định hướng:** Luôn đọc [`ROADMAP.md`](./ROADMAP.md) và LFP trong [`docs`](./docs) trước tiên để hiểu rõ mục tiêu.
 
 2.  **Tạo Mock Data Tối giản của riêng bạn:**
     *   **Đây là bước được khuyến khích.** Đừng cố gắng implement toàn bộ `mocks/database`. Hãy tạo một file mock nhỏ, chỉ chứa những dữ liệu bạn thực sự cần cho component đang làm.
