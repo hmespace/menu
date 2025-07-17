@@ -1,18 +1,14 @@
 [
-
   {
-
     "id": "inv-item-01",
     "sku": "BEEF-SIRLOIN-AUS-01",
     "name": "Thăn ngoại bò Úc tươi",
     "internalName": "Bò Úc",
     "description": "Thăn ngoại bò Úc, được làm lạnh, chưa đông đá. Dùng cho món Bò Bít Tết.",
 
-
     "category": "Thịt & Hải sản",
     "isPerishable": true,
     "isTaxable": true,
-
 
     "unitOfMeasure": "kg",
     "stockLevel": 10.5,
@@ -23,17 +19,14 @@
     "reorderQuantity": 10.0,
     "wasteQuantity_mtd": 0.5,
 
-
     "averageCost": 850000,
     "lastPurchasePrice": 865000,
     "currency": "VND",
     "supplierId": "supplier-abc-meats",
 
-
     "storageType": "refrigerated",
     "shelfLifeDays": 7,
     "weightPerUnit": null,
-
 
     "lotNumber": "LOT20231029-AUS",
     "countryOfOrigin": "Australia",
@@ -41,14 +34,12 @@
     "lastReceivedDate": "2023-10-28T08:00:00Z",
     "expirationDate": "2023-11-04T08:00:00Z",
 
-
     "locationId": "loc-01",
     "status": "in_stock",
     "lastCountedAt": "2023-10-27T22:00:00Z",
     "createdAt": "2022-01-15T10:00:00Z",
     "updatedAt": "2023-10-29T09:00:00Z"
   },
-
 
   {
     "id": "inv-item-02",
@@ -85,7 +76,6 @@
     "createdAt": "2022-01-15T10:00:00Z",
     "updatedAt": "2023-10-27T22:00:00Z"
   },
-
 
   {
     "id": "inv-item-03",
