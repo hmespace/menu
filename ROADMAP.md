@@ -11,22 +11,22 @@
 
 ### **1.1. Tuyên ngôn Tầm nhìn (Vision Statement)**
 
-> Trở thành "Hệ điều hành" (Operating System) cho các doanh nghiệp F&B tại Đông Nam Á, cung cấp một nền tảng số toàn diện giúp họ tối ưu hóa vận hành, thấu hiểu khách hàng và tăng trưởng bền vững trong kỷ nguyên số.
+> Trở thành "Hệ điều hành" (Operating System) cho các doanh nghiệp F&B tại Đông Nam Á, cung cấp một nền tảng số toàn diện giúp họ tối ưu hóa vận hành, thấu hiểu khách hàng và tăng trưởng bền vững trong kỷ nguyên số. Chúng ta không chỉ xây dựng một ứng dụng, chúng ta đang kiến tạo tương lai của ngành dịch vụ ẩm thực.
 
 ### **1.2. Sứ mệnh Sản phẩm (Mission Statement)**
 
-> Sứ mệnh của chúng ta là **số hóa và thông minh hóa trải nghiệm F&B**. Chúng ta trao quyền cho các chủ nhà hàng, từ quán nhỏ đến chuỗi lớn, bằng những công cụ mạnh mẽ, dễ sử dụng để kết nối liền mạch với thực khách, biến mỗi giao dịch thành một mối quan hệ lâu dài.
+> Sứ mệnh của chúng ta là **số hóa và thông minh hóa trải nghiệm F&B**. Chúng ta trao quyền cho các chủ nhà hàng, từ quán nhỏ đến chuỗi lớn, bằng những công cụ mạnh mẽ, dễ sử dụng để kết nối liền mạch với thực khách, biến mỗi giao dịch thành một mối quan hệ lâu dài và biến dữ liệu thành lợi thế cạnh tranh.
 
 ### **1.3. Mục tiêu của Tài liệu này**
 
 Tài liệu `ROADMAP.md` này là **Nguồn Chân lý Duy nhất (Single Source of Truth)** cho tầm nhìn và kế hoạch phát triển sản phẩm. Nó được thiết kế để:
--   **Căn chỉnh (Align):** Đảm bảo toàn bộ đội ngũ, từ Kỹ thuật, Thiết kế, đến Kinh doanh, đều cùng nhìn về một hướng và hiểu rõ "Tại sao" chúng ta xây dựng từng tính năng.
--   **Trao quyền (Empower):** Cung cấp cho các nhóm sự tự chủ trong việc ra quyết định chiến thuật, miễn là chúng phục vụ cho mục tiêu chiến lược đã được vạch ra trong lộ trình này.
--   **Giao tiếp (Communicate):** Trình bày một cách rõ ràng và minh bạch tầm nhìn, tham vọng và kế hoạch của chúng ta cho các đối tác, cố vấn và nhà đầu tư.
+-   **Căn chỉnh (Align):** Đảm bảo toàn bộ đội ngũ, từ Kỹ thuật, Thiết kế, đến Kinh doanh, đều cùng nhìn về một hướng và hiểu rõ "Tại sao" chúng ta xây dựng từng tính năng. Mọi tranh luận về sự ưu tiên đều bắt đầu và kết thúc tại đây.
+-   **Trao quyền (Empower):** Cung cấp cho các nhóm sự tự chủ trong việc ra quyết định chiến thuật, miễn là chúng phục vụ cho mục tiêu chiến lược đã được vạch ra trong lộ trình này. Tài liệu này cung cấp "ý định của người chỉ huy", không phải là một bản kế hoạch chi tiết đến từng bước.
+-   **Giao tiếp (Communicate):** Trình bày một cách rõ ràng và minh bạch tầm nhìn, tham vọng và kế hoạch của chúng ta cho các đối tác, cố vấn và nhà đầu tư, thể hiện sự trưởng thành và chiều sâu trong tư duy chiến lược.
 
-### **1.4. Kiến trúc Lộ trình: 15 Giai đoạn Phát triển**
+### **1.4. Kiến trúc Lộ trình: Câu chuyện về 15 Giai đoạn**
 
-Lộ trình của chúng ta được chia thành 15 giai đoạn, mỗi giai đoạn được đặt tên theo một động từ khiếm khuyết trong tiếng Anh. Những cái tên này không phải ngẫu nhiên; chúng thể hiện **mức độ chắc chắn, sự ưu tiên, và trạng thái tư duy chiến lược** của công ty tại mỗi thời điểm.
+Lộ trình của chúng ta không phải là một danh sách ngẫu nhiên, mà là một câu chuyện có cấu trúc về sự trưởng thành của một công ty công nghệ. 15 giai đoạn được chia thành 5 phần, mỗi phần đại diện cho một chương trong hành trình của chúng ta.
 
 #### **Phần I: NỀN TẢNG & SINH TỒN (Giai đoạn 1-3)**
 *Tập trung vào các yêu cầu tuyệt đối để sản phẩm tồn tại, ra mắt và xác thực được giá trị cốt lõi.*
@@ -65,7 +65,7 @@ Mọi tính năng (Epic) đều có một mã định danh duy nhất tuân theo
 
 **Ví dụ:** `PAY-301`
 
--   **`[PREFIX]` (3 ký tự):** Là mã viết tắt của **Domain nghiệp vụ** mà tính năng đó thuộc về.
+-   **`[PREFIX]` (3 ký tự):** Là mã viết tắt của **Domain nghiệp vụ**. Đây là "ngôn ngữ chung" để chúng ta phân loại mọi thứ.
     -   `ONB`: Onboarding (Tiếp cận & Truy cập)
     -   `MENU`: Menu (Khám phá Thực đơn)
     -   `ORD`: Order (Đặt món & Quản lý Đơn hàng)
@@ -84,14 +84,12 @@ Mọi tính năng (Epic) đều có một mã định danh duy nhất tuân theo
     -   **Hai chữ số cuối:** Là **số thứ tự của tính năng** trong giai đoạn đó.
 
 #### **1.5.2. Cấu trúc Bảng Lộ trình**
-Mỗi tính năng được mô tả qua các cột sau:
--   **Mã:** Mã định danh duy nhất của tính năng (Epic ID), tuân theo quy tắc ở mục 1.5.1.
--   **Tên tính năng:** Tên gọi phổ biến, dễ hiểu của tính năng.
--   **Mục tiêu chiến lược:** Lý do cốt lõi chúng ta xây dựng tính năng này.
--   **Đối tượng hưởng lợi:** Phân khúc người dùng chính sẽ nhận được giá trị.
--   **Giá trị cốt lõi:** Lợi ích cụ thể mà người dùng nhận được.
-
----
+Mỗi cột trong bảng lộ trình được thiết kế để trả lời một câu hỏi cốt lõi, giúp mọi người đọc có thể tìm thấy thông tin họ cần:
+-   **Mã:** *Định danh duy nhất là gì?* - Dùng để theo dõi và tham chiếu.
+-   **Tên tính năng:** *Chúng ta gọi nó là gì?* - Tên gọi chung, dễ hiểu.
+-   **Mục tiêu chiến lược:** *Tại sao chúng ta lại xây dựng nó?* - Dành cho Founder, Lãnh đạo, PM.
+-   **Đối tượng hưởng lợi:** *Chúng ta xây dựng nó cho ai?* - Dành cho Designer, Marketing, Sales.
+-   **Giá trị cốt lõi:** *Họ nhận được điều gì cụ thể?* - Dành cho Designer, User, Support.
 
 ## **Phần 2: Lộ trình Phát triển Sản phẩm (15 Giai đoạn)**
 
