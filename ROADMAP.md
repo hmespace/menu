@@ -2,8 +2,8 @@
 
 - **Trạng thái:** Hoạt động
 - **Phiên bản:** 5.0
-- **Chủ sở hữu:** Founder & AI Co-Founder
-- **Cập nhật lần cuối:** 2023-10-27
+- **Chủ sở hữu:** Mespace
+- **Cập nhật lần cuối:** 2025-07-19
 
 ---
 
